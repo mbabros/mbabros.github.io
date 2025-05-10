@@ -9,5 +9,19 @@
         "name": "mbabros"
     },
     "items": [
+        {
+            "id": "https://mbabros.github.io/testing-new-page.html",
+            "url": "https://mbabros.github.io/testing-new-page.html",
+            "title": "Testing new page",
+            "summary": "This is a new page using Publii",
+            "content_html": "<p>This is a new page using Publii</p>",
+            "author": {
+                "name": "mbabros"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-05-10T00:54:19-07:00",
+            "date_modified": "2025-05-10T00:54:19-07:00"
+        }
     ]
 }
