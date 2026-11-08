@@ -1,0 +1,50 @@
+---
+title: MBA Bros Private Cloud
+description: Build your own enterprise-grade, zero-trust hybrid cloud with self-hosted open-source software.
+template: splash
+hero:
+  tagline: Enterprise-grade self-hosted infrastructure guide. Learn how to architect, secure, and codify a zero-port hybrid cloud using OCI Cloud Ingress, Tailscale Mesh, Caddy Wildcard SSL, Apple Silicon, and Coolify PaaS.
+  image:
+    file: ../../assets/cloud.svg
+  actions:
+    - text: System Architecture
+      link: /showcase/architecture/
+      icon: right-arrow
+      variant: primary
+    - text: Private Cloud Blueprints
+      link: /guides/oci-caddy/
+      icon: open-book
+      variant: secondary
+    - text: Engineering Blog
+      link: /blog/
+      icon: pen
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Architectural Pillars
+
+<CardGrid stagger>
+  <Card title="Zero-Open-Port Ingress" icon="seti:lock">
+    All residential and edge services run with 0 inbound NAT router ports open. Only a hardened Oracle Cloud (OCI) Ampere A1 gateway accepts public HTTPS traffic.
+  </Card>
+  <Card title="Tailscale WireGuard Mesh" icon="seti:graphql">
+    Traffic between public cloud ingress proxies and residential hardware travels over an encrypted point-to-point WireGuard mesh with ACL access controls.
+  </Card>
+  <Card title="Apple Silicon PaaS Powerhouse" icon="apple">
+    High-density, low-power self-hosting powered by Mac mini M2 running OrbStack, local Coolify PaaS, Docker Compose stacks, and automated GitHub self-hosted runners.
+  </Card>
+  <Card title="100% Codified Infrastructure" icon="seti:git">
+    Every Caddy routing rule, firewall configuration, systemd service, and container stack is version-controlled and deployed via automated CI/CD GitOps pipelines.
+  </Card>
+</CardGrid>
+
+---
+
+## What You'll Learn
+
+1. **Hardened Cloud Gateway Setup:** Deploying an OCI Always Free ARM Ampere instance with custom Caddy builds, Cloudflare DNS-01 wildcard certificates, and HTTP/3 QUIC support.
+2. **End-to-End Mesh Security:** Bridging cloud reverse proxies to internal subnets using Tailscale with iptables/nftables packet filtering and UFW.
+3. **Container Orchestration with Coolify:** Managing production Docker workloads without vendor lock-in on energy-efficient Apple Silicon hardware.
+4. **GitOps & Observability:** Automatically validating Caddyfiles with automated CI tests, deploying via SSH GitHub Actions, and monitoring service health with Uptime Kuma and Gotify push alerts.
