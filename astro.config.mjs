@@ -4,7 +4,7 @@ import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mbabros.github.io',
+  site: 'https://excloudvault.mbabros.com',
   integrations: [
     starlight({
       title: 'ExCloudVault.com',

@@ -4,7 +4,7 @@
 
 The official documentation, showcase portal, and engineering blog for **ExCloudVault.com**—an enterprise-grade, zero-trust hybrid self-hosted private cloud.
 
-Live Site: **[https://mbabros.github.io/](https://mbabros.github.io/)**
+Live Site: **[https://excloudvault.mbabros.com/](https://excloudvault.mbabros.com/)** (or [https://mbabros.github.io/](https://mbabros.github.io/))
 
 ---
 
