@@ -7,8 +7,8 @@ export default defineConfig({
   site: 'https://mbabros.github.io',
   integrations: [
     starlight({
-      title: 'MBA Bros Private Cloud',
-      description: 'Showcase and Knowledge Base for building an enterprise-grade self-hosted private cloud.',
+      title: 'ExCloudVault.com',
+      description: 'Showcase and Knowledge Base for building an enterprise-grade self-hosted private cloud with ExCloudVault.com.',
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/mbabros/homelab' },
       ],
@@ -19,8 +19,12 @@ export default defineConfig({
         starlightBlog({
           title: 'Engineering Blog',
           authors: {
+            excloudvault: {
+              name: 'ExCloudVault Team',
+              title: 'Private Cloud Architects',
+            },
             mbabros: {
-              name: 'MBA Bros Homelab Team',
+              name: 'ExCloudVault Team',
               title: 'Private Cloud Architects',
             },
           },

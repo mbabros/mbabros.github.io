@@ -8,7 +8,7 @@ excerpt: How we built a whisper-quiet, zero-port self-hosted cloud combining Ora
 
 For years, self-hosting at home came with unavoidable compromises: noisy enterprise server racks, surging electric bills, fragile dynamic DNS scripts, and the inherent security risks of opening ports on your home router.
 
-Today, modern networking and virtualization primitives have completely reshaped the self-hosting landscape. In this post, we explain how we designed and deployed the **MBA Bros Private Cloud**—a zero-trust, high-density infrastructure running on an Apple Silicon Mac mini and an Oracle Cloud Always-Free edge gateway.
+Today, modern networking and virtualization primitives have completely reshaped the self-hosting landscape. In this post, we explain how we designed and deployed **ExCloudVault.com**—a zero-trust, high-density private cloud infrastructure running on an Apple Silicon Mac mini and an Oracle Cloud Always-Free edge gateway.
 
 ---
 

@@ -8,7 +8,7 @@ excerpt: How we achieve zero-downtime Caddy configuration updates using automate
 
 One of the most dangerous anti-patterns in self-hosting is editing live reverse proxy configurations directly on production hosts via SSH. A single misplaced bracket or invalid directive can take down all subdomains simultaneously.
 
-To prevent outages, the **MBA Bros Private Cloud** enforces a strict GitOps deployment model for Caddy using **GitHub Actions**.
+To prevent outages, the **ExCloudVault.com** private cloud enforces a strict GitOps deployment model for Caddy using **GitHub Actions**.
 
 ---
 

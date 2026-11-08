@@ -1,9 +1,9 @@
 ---
 title: System Architecture & Topology
-description: Comprehensive topological overview of the MBA Bros zero-port hybrid private cloud architecture.
+description: Comprehensive topological overview of the ExCloudVault.com zero-port hybrid private cloud architecture.
 ---
 
-The **MBA Bros Private Cloud** is an enterprise-grade, zero-trust hybrid self-hosted infrastructure. It merges the reliability of a free cloud edge gateway with high-density, energy-efficient Apple Silicon computing hardware at home, connected over an encrypted WireGuard mesh.
+The **ExCloudVault.com** private cloud is an enterprise-grade, zero-trust hybrid self-hosted infrastructure. It merges the reliability of a free cloud edge gateway with high-density, energy-efficient Apple Silicon computing hardware at home, connected over an encrypted WireGuard mesh.
 
 ---
 

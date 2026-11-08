@@ -3,8 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: mbabros-showcase-portal:latest
-    container_name: mbabros-showcase-portal
+    image: excloudvault-showcase-portal:latest
+    container_name: excloudvault-showcase-portal
     restart: unless-stopped
     ports:
       - "30020:80"

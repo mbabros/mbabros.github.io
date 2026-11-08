@@ -5,7 +5,7 @@ description: Architecting an encrypted WireGuard mesh between public cloud rever
 
 Traditional self-hosting requires opening ports 80 and 443 on your home router, configuring dynamic DNS (DDNS), and exposing your residential IP address to port scanners and DDoS attacks. 
 
-In the MBA Bros Private Cloud architecture, the home network maintains **zero open ports**. Instead, all cross-boundary communications flow through an encrypted **Tailscale WireGuard mesh**.
+In the ExCloudVault.com architecture, the home network maintains **zero open ports**. Instead, all cross-boundary communications flow through an encrypted **Tailscale WireGuard mesh**.
 
 ---
 
